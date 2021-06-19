@@ -5,7 +5,7 @@ import Deals from './Pages/Deals'
 import Signin from './Pages/auth/Signin'
 import Signup from './Pages/auth/Signup'
 import Customerservice from './Pages/Customerservice'
-
+import Registry from './Pages/Registry'
 
 const Routes = () => {
     return (
@@ -18,6 +18,7 @@ const Routes = () => {
              <Route exact path="/signup" component={Signup}/>
              <Route exact path="/signin" component={Signin}/>
              <Route exact path="/service" component={Customerservice}/>
+             <Route exact path="/registry" component={Registry}/>
          </Switch>
      </Router>
         </div> 

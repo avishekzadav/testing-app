@@ -11,7 +11,7 @@ const Nav = () => {
             <Link className="navbar-brand" to="/">
               <img src="./images/8.png" width="100"/>
             </Link>
-            <div className="d-flex algn-items-center">
+            <div className="d-flex align-items-center">
               <div><i class='bx bxs-location-plus text-white custom-link' ></i></div>
               <div> <p style={{color:'#cccccc',fontSize:'12px', marginBottom:'-5px' }}>Deliver to </p>
               <span style={{color:'white',fontWeight:'bold'}}>Nepal</span>
@@ -59,7 +59,7 @@ const Nav = () => {
                 <Link className="nav-link text-white" to="#">Gift card</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#">Regestry</Link>
+                <Link className="nav-link text-white" to="/registry">Regestry</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-white" to="#">sales</Link>
