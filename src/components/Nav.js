@@ -8,8 +8,8 @@ const Nav = () => {
       <div className="container-fluid top-nav">
         <div className="row align-items-center">
           <div className="col-md-3 d-flex">
-            <Link className="navbar-brand" to="#">
-              <img src="./images/1.jpg" width="100"/>
+            <Link className="navbar-brand" to="/">
+              <img src="./images/8.png" width="100"/>
             </Link>
             <div className="d-flex algn-items-center">
               <div><i class='bx bxs-location-plus text-white custom-link' ></i></div>
@@ -27,8 +27,8 @@ const Nav = () => {
           </div>
           <div className="col-md-2">
             <ul className="d-flex justfy-content-end">
-              <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2"><i className='bx bxs-user'></i></Link> </li>
-              <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2"><i className='bx bxs-user-plus'></i></Link> </li>
+              <li className="list-unstyled"><Link to="/signin" className="text-decoration-none px-2"><i className='bx bxs-user'></i></Link> </li>
+              <li className="list-unstyled"><Link to="/signup" className="text-decoration-none px-2"><i className='bx bxs-user-plus'></i></Link> </li>
               <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2"><i className='bx bx-cart-alt'></i></Link> </li>
             </ul>
           </div>
@@ -46,14 +46,23 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active text-white" aria-current="page" to="#">Home</Link>
+                <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link text-white" to="#">Link</Link>
+                <Link className="nav-link text-white" to="/deals">Deals</Link>
               </li>
               
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#">Disabled</Link>
+                <Link className="nav-link text-white" to="/service">Customer Service</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">Gift card</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">Regestry</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">sales</Link>
               </li>
             </ul>
 
